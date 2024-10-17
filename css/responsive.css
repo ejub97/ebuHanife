@@ -76,8 +76,11 @@ Version:	1.1
 
 	.header .header-inner .get-quote {
 		margin-top: 12px;
-		display: none;
 		margin: 0;
+	}
+
+	.get-quote a {
+		width: 100%;
 	}
 
 	.header .nav li a {
@@ -195,7 +198,8 @@ Version:	1.1
 	}
 
 	.slider .single-slider .text {
-		margin-top: 80px;
+		margin-top: 49px;
+		margin-left: 50px;
 	}
 
 	.slider.index2 .single-slider .text {
@@ -460,8 +464,13 @@ Version:	1.1
 		padding: 65px 0px;
 	}
 
+	.menu {
+		flex-wrap: unset;
+	}
 
-
+	.menu li {
+		text-wrap: nowrap;
+	}
 
 
 
@@ -641,13 +650,14 @@ Version:	1.1
 	.header .header-inner .get-quote {
 		margin: 0;
 		padding: 0;
+		display: flex;
+		justify-content: center;
 	}
 
 	.header .header-inner .get-quote .btn {
 		color: #fff;
-		display: none;
 		margin: 0;
-		padding: 0;
+		width: 100%;
 	}
 
 	.section {
