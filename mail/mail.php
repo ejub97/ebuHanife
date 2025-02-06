@@ -16,10 +16,10 @@ Message: $message\n
 ";
 
 // Definiraj e-mail primatelja
-$to = "school.ebuhanife@gmail.com"; // Tvoja e-mail adresa
+$to = "school.ebuhanife@gmail.com"; 
 $email_subject = "Nova poruka sa kontakt forme";
 
-// Postavi zaglavlja (headers)
+
 $headers = "From: $email\r\n";
 $headers .= "Reply-To: $email\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";

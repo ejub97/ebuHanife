@@ -1,9 +1,6 @@
 /* =====================================
-Template Name: 	Mediplus.
-Author Name: Naimur Rahman
-Website: http://wpthemesgrid.com/
-Description: Mediplus - Doctor HTML Template.
-Version:	1.1
+Template Name: 	Skola Kur'ana Ebu Hanife
+Author Name: Ejub Hasanovic
 ========================================*/
 /*=======================================
 [Start Activation Code]
