@@ -2513,7 +2513,7 @@ body {
 .news-single .single-main {
   margin-top: 30px;
   background: #fff;
-  padding: 30px;
+  padding: 20px;
   -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
@@ -2624,6 +2624,13 @@ body {
 
 .news-single .image-gallery .single-image {
   overflow: hidden;
+  position: relative;
+}
+
+.news-single .image-gallery .single-image img {
+  width: 100%;  /* Ensure the image scales to fill the container */
+  height: auto; /* Keep the aspect ratio */
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
 }
 
 .news-single .image-gallery .single-image:hover img {
